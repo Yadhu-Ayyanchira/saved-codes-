@@ -9,8 +9,7 @@ async function searchSurvey(input) {
           { surveyCategory: regex },
           { businessName: regex },
           { researchGoal: regex },
-          { tag: regex },
-          // Add more fields as needed
+          { tag: regex }
         ],
       })
       .toArray();
